@@ -9,7 +9,7 @@
 In this lab we will be working with a `Student` class. Each student has an `id`, a `name` and a `grade`. Students should be initialized with an id that defaults to `nil`, a name and a grade. 
 
 In this lab, our connection to the database is set up for you in the `config/environment.rb` file:
-
+****
 ```ruby
 DB = {:conn => SQLite3::Database.new("db/students.db")}
 ```
